@@ -287,7 +287,7 @@ GEM
     nenv (0.3.0)
     netrc (0.11.0)
     nio4r (2.3.1)
-    nokogiri (1.10.2)
+    nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
@@ -345,7 +345,7 @@ GEM
     rbovirt (0.1.7)
       nokogiri
       rest-client (> 1.7.0)
-    rbvmomi (2.1.1)
+    rbvmomi (2.1.2)
       builder (~> 3.0)
       json (>= 1.8)
       nokogiri (~> 1.5)
@@ -393,7 +393,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.5)
+    unf_ext (0.0.7.6)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
