@@ -16,7 +16,7 @@ class UsersController < ApplicationController
   # ユーザーの詳細ページ
   def show
     @user = User.find(params[:id])
-    redirect_to root_url and return unless @user.activated? 
+    redirect_to root_url and return unless @user.activated?
   end
 
   # ユーザー作成
@@ -33,10 +33,12 @@ class UsersController < ApplicationController
   end
 
   # GET /users/:id/edit
+  # ユーザー詳細ページ
   def edit
     @user = User.find(params[:id])
   end
 
+  # ユーザー情報更新
   def update
     @user = User.find(params[:id])
     if @user.update_attributes(user_params)
@@ -47,6 +49,7 @@ class UsersController < ApplicationController
     end
   end
 
+  # ユーザー削除
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = "User deleted"
