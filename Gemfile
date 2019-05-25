@@ -22,6 +22,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'pry-doc'
+  gem 'rename'
 end
 
 group :development do
