@@ -171,22 +171,22 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(9.5.1)) [path][gem]" type="rubylib">
+      <library name="autoprefixer-rails (vbundled(9.5.1.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/vendor" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/vendor" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/spec" />
         </excluded>
       </library>
     </orderEntry>
@@ -473,23 +473,23 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="ffi (vbundled(1.10.0)) [path][gem]" type="rubylib">
+      <library name="ffi (vbundled(1.11.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/samples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/samples" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/samples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/samples" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.10.0/samples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ffi-1.11.1/samples" />
         </excluded>
       </library>
     </orderEntry>
