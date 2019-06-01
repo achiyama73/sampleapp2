@@ -23,4 +23,7 @@ vendor/bundle
 /node_modules
 /yarn-error.log
 
+# Ignore test picture
+/public/uploads
+
 .byebug_history
