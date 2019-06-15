@@ -15,7 +15,7 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test 'email should be present' do
-    @user.name = '   '
+    @user.email = '   '
     assert_not @user.valid?
   end
 
@@ -25,7 +25,7 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test 'email should be too long' do
-    @user.name = 'a' * 244 + '@example.com'
+    @user.email = 'a' * 244 + '@example.com'
     assert_not @user.valid?
   end
 
@@ -87,6 +87,7 @@ class UserTest < ActiveSupport::TestCase
     assert_not michael.following?(archer)
     michael.follow(archer)
     assert michael.following?(archer)
+    assert archer.followers.include?(michael)
     michael.unfollow(archer)
     assert_not michael.following?(archer)
   end

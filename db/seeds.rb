@@ -21,7 +21,10 @@ users = User.order(:created_at).take(6)
   users.each { |user| user.microposts.create!(content: content) }
 end
 
-# Relationship関連
-10.times do |n|
-  Relationship.create!(follower_id: 1, followed_id: n + 2)
-end
+# リレーションシップ
+users = User.all
+user  = users.first
+following = users[2..50]
+followers = users[3..40]
+following.each { |followed| user.follow(followed) }
+followers.each { |follower| follower.follow(user) }
