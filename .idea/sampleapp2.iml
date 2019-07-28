@@ -171,26 +171,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(9.5.1.1)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/vendor" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/vendor" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/autoprefixer-rails-9.5.1.1/spec" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="bcrypt (vbundled(3.1.12)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1245,19 +1225,6 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/rb-inotify-0.10.0/spec" />
         </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="ruby-progressbar (vbundled(1.10.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ruby-progressbar-1.10.0/lib" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.4.0/gems/ruby-progressbar-1.10.0/lib" />
-        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
